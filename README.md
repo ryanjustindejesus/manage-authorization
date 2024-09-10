@@ -42,7 +42,7 @@ In this task, I determined specific files had incorrect permissions and changed 
 In this task, I determined a hidden file had incorrect permissions and then changed the permissions as needed. This action will further remove unauthorized access and strengthen security on the system.
  <br/> <br/>
 (1) First, I used the command "ls -la" to check the permissions of the hidden file .project_x.txt. <br/> <br/>
-(2) Then, I used the command "chmod u-w,g-w,g+r .project_x.txt" to change the permissions of the file .project_x.txt so that both the user and the group can read, but not write to, the file.  <br/> <br/> <p align="center">
+(2) Finally, I used the command "chmod u-w,g-w,g+r .project_x.txt" to change the permissions of the file .project_x.txt so that both the user and the group can read, but not write to, the file.  <br/> <br/> <p align="center">
 <img src="https://imgur.com/mxt8YgW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br />
 
@@ -50,7 +50,7 @@ In this task, I determined a hidden file had incorrect permissions and then chan
 In this task, I changed the permissions of a directory. Only the 'researcher2' user should be allowed to access the `drafts` directory and its contents. (This means that only `researcher2` should have execute privileges.)
  <br/> <br/> 
 (1) First, I used the command "ls -la to check the permissions of the 'drafts' directory. <br/> <br/>
-(2) Then, I used the command "chmod g-x drafts" to remove the execute permission for the group from the drafts directory. 
+(2) Finally, I used the command "chmod g-x drafts" to remove the execute permission for the group from the drafts directory. 
 <br/> <br/>  <p align="center">
 <img src="https://imgur.com/Il1XhsC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br />
