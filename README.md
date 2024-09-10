@@ -24,7 +24,7 @@ In this lab, I used Linux commands in the Bash shell to learn how to examine and
 In this task, I explored the permissions of the projects directory and the files it contained.
  <br/> <br />
 (1) First, I used the command "cd projects" to navigate to the projects directory. <br/> <br/>
-(2) Then, I used the command "ls -l" to list the contents and permissions of the projects directory. <br/> <br/>
+(2) Next, I used the command "ls -l" to list the contents and permissions of the projects directory. <br/> <br/>
 (3) Finally, I used the command "ls -la" to check whether any hidden files exist in the projects directory and found that .project_x.txt is a file hidden in the projects directory. <br/> <br/> <p align="center">
 <img src="https://imgur.com/W9MmClD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br />
@@ -33,7 +33,7 @@ In this task, I explored the permissions of the projects directory and the fil
 In this task, I determined specific files had incorrect permissions and changed the permissions as needed. This action will remove unauthorized access and strengthen security on the system.
 <br/> <br />
 (1) First, I used the command "ls -l" to check whether any files in the projects directory have write permissions for the owner type of other. <br/> <br/>
-(2) Then, I used the command "chmod o-w project_k.txt" to change the permissions of the file identified in the previous step so that the owner type of other doesn't have write permissions. <br/> <br/>
+(2) Next, I used the command "chmod o-w project_k.txt" to change the permissions of the file identified in the previous step so that the owner type of other doesn't have write permissions. <br/> <br/>
 (3) Finally, I used the command "chmod g-r project_m.txt" to change permissions of the project_m.txt file so that the group doesn't have read or write permissions. <br /> <br /> <p align="center">
 <img src="https://imgur.com/DZSGz7N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br /> <br />
